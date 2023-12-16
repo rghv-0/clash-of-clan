@@ -1,0 +1,278 @@
+@media screen and (max-width:1060px) {
+    .container{
+        padding: 0 3.33%;
+    }
+
+    .row{
+        margin: 0 2rem;
+    }
+    
+    .col-8-t {
+        flex-basis: calc(8/12 * 100%);
+        max-width: calc(8/12 * 100%);
+    }
+
+
+    .bg-intro-text {
+        /* width: 100%; */
+        position: relative;
+        left: 40%;
+        margin-top: 13rem;
+
+    }
+
+    .bg-intro-social-link img {
+        width: 90%;
+    }
+
+    .video-info {
+        font-size: 12px;
+    }
+
+    .terms ul li {
+        font-size: 11px;
+
+    }
+
+    /* .bg-intro-text{
+
+    } */
+}
+
+@media screen and (max-width:930px) {
+
+    .wrap-2 {
+        background: url(img/mobile-head.jpg);
+        background-attachment: fixed;
+        width: 100%;
+        height: 100vh;
+        background-position: center;
+        background-repeat: no-repeat;
+        background-size: cover;
+    }
+
+    .container{
+        padding: 0 3.33%;
+    }
+
+    .row{
+        margin: 0 2rem;
+    }
+    .col-12-t {
+        flex-basis: calc(12/12 * 100%);
+        max-width: calc(12/12 * 100%);
+    }
+
+    .col-8-t-1 {
+        flex-basis: calc(8/12 * 100%);
+        max-width: calc(8/12 * 100%);
+    }
+
+    .bg-intro-social-link a img {
+        width: 100%;
+
+    }
+
+    .nav ul li a {
+        display: inline-block;
+        margin: 0 0.5rem 0 3rem;
+    }
+
+    .video {
+        margin-bottom: 5rem;
+    }
+
+    .video-1 iframe,
+.video-2 iframe {
+    width: 100%;
+    height: 24rem
+}
+
+    .video-info img {
+        width: 10%;
+    }
+
+    .footer-social-link ul li a img {
+        /* transform: scale(1.4); */
+        width: 50%;
+
+    }
+
+    .wrap-2 .main-logo img {
+        width: 80%;
+        height: 50%;
+
+    }
+
+    .bg-intro-image img {
+        width: 100%;
+        height: 70%;
+    }
+
+    .wrap-6 {
+        padding-bottom: 2rem;
+    }
+    
+    .bg-intro-image img {
+
+        width: 100%;
+        height: 100%;
+    }
+}
+
+
+@media screen and (max-width:770px) {
+
+    .container{
+        padding: 0 2.33%;
+    }
+
+    .row{
+        margin: 0 1.5rem;
+    }
+
+
+    .wrap-2 {
+        background: url(img/mobile-head-0.jpg);
+        background-attachment: fixed;
+        width: 100%;
+        height: 100vh;
+        background-position: center;
+        background-repeat: no-repeat;
+        background-size: cover;
+    }
+
+    .col-10-t {
+        flex-basis: calc(10/12 * 100%);
+        max-width: calc(10/12 * 100%);
+    }
+
+    .col-12-t-1 {
+        flex-basis: calc(12/10 * 100%);
+        max-width: calc(12/10 * 100%);
+    }
+
+    .menu {
+        display: block;
+    }
+
+    .nav-links {
+        overflow: hidden;
+        display: none;
+        position: relative;
+        top: -100%;
+        transition: top .8 ease;
+    }
+
+    .nav-links.active {
+        display: inline-block;
+        width: 80%;
+        top: 0;
+
+    }
+
+    .bg-intro-image {
+        position: relative;
+
+        text-align: center;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        width: 100%;
+        /* height: 60vh; */
+
+        top: 7rem;
+        left: 0;
+    }
+
+    .bg-intro-image img {
+
+        width: 100%;
+        height: 75%;
+    }
+
+    .bg-intro-text {
+        position: relative;
+        text-align: center;
+        top: 0;
+        left: 0;
+
+    }
+
+    .bg-intro-social-link a img {
+        width: 70%;
+    }
+
+
+    .col-12-t-1 {
+        flex-basis: calc(12/12 * 100%);
+        max-width: calc(12/12 * 100%);
+    }
+
+    .news {
+        width: 100%;
+        height: 100%;
+        margin: 1rem 0;
+    }
+
+    .news .news-1,
+    .news-2 {
+        width: 100%;
+        height: 10%;
+        margin: 2rem 0;
+    }
+    .terms{
+        margin-bottom: 1rem;
+    }
+
+    .video-1 iframe,
+.video-2 iframe {
+    width: 100%;
+    height: 18rem
+}
+
+}
+
+@media screen and (max-width:680px) {
+
+    .container{
+        padding: 0 1.33%;
+    }
+
+    .row{
+        margin: 0 1rem;
+    }
+
+    .bg-intro-image img {
+
+        width: 100%;
+        height: 85%;
+    }
+
+  
+.app-store{
+    width: 100%;
+    transform: scale(1.2);
+}
+   
+
+.video-1 iframe,
+.video-2 iframe {
+    width: 100%;
+    height: 16rem
+}
+}
+
+@media screen and (max-width:630px) {
+    .col-9-stz{
+        flex-basis: calc(9/12 * 100%);
+        max-width: calc(9/12 * 100%);
+    }
+    
+
+    .bg-intro-social-link{
+        transform: scale(1.5);
+    }
+
+    
+}
